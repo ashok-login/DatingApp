@@ -4,7 +4,7 @@ using DatingApp.API.Models;
 
 namespace DatingApp.API.Dtos
 {
-    public class UserForDetailsDto
+    public class UserForDetaildDto
     {
         public int Id { get; set; }
         public string Username { get; set; }
@@ -19,6 +19,6 @@ namespace DatingApp.API.Dtos
         public string City { get; set; }
         public string Country { get; set; }
         public string PhotoUrl { get; set; }
-        public ICollection<PhotosForDetailsDto> Photos { get; set; }
+        public ICollection<PhotosForDetaildDto> Photos { get; set; }
     }
 }
