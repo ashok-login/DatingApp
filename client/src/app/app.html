@@ -1,7 +1,7 @@
-{{ title() }}!!!
+<h3 class="text-3xl text-red-500">{{ title() }}!!!</h3>
 
 <ul>
-  @for (member of members(); track member.id) {
-  <li>{{ member.id }} - {{ member.displayName }}</li>
-  }
+    @for (member of members(); track member.id) {
+        <li>{{ member.name }} - {{ member.displayName }}</li>
+    }
 </ul>
